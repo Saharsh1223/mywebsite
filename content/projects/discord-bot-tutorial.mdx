@@ -1,0 +1,48 @@
+---
+title: Discord Bot under 4 minutes - Discord.py
+description: How to create a Discord Bot under 4 minutes!
+date: "02-22-2022"
+repository: saharsh1223/discord-bot-under-4-mins
+published: true
+---
+
+# Video
+
+<iframe
+  style={{borderRadius: '8px', width: '640px', overflow: 'hidden'}}
+  width='640'
+  height='480'
+  src='https://www.youtube.com/embed/kwmrUNHToSE'
+  frameborder='0'
+  allow='autoplay; encrypted-media'
+  allowfullscreen
+></iframe>
+
+# Information
+
+A tutorial on how to create a Discord Bot under 4 minutes using Discord.py! Made by [Saharsh1223](https://www.youtube.com/SaharshDev).
+
+# Code
+
+```
+import os
+import discord
+from discord.ext import commands
+
+intents = discord.Intents.all()
+intents.members = True
+
+bot = commands.Bot(command_prefix="!", intents=intents)
+
+@bot.command()
+async def hello(ctx):
+  await ctx.send("Hello!")
+
+token = os.environ['TOKEN']
+bot.run(token)
+
+```
+
+# Github
+
+The repository is public if you want to fork and is available on [github!](https://github.com/Saharsh1223/Discord-bot-under-4-mins)
