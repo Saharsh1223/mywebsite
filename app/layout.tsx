@@ -6,12 +6,12 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "saharsh1223",
-    template: "%s | saharsh1223",
+    default: "Saharsh1223",
+    template: "%s | Saharsh1223",
   },
-  description: "A programming enthusiast who likes to code stuff",
+  description: "Just a 14 year old programming enthusiast who likes to code stuff",
   openGraph: {
-    title: "saharsh1223",
+    title: "Saharsh1223",
     description:
       "A programming enthusiast who likes to code stuff",
     url: "https://saharshdev.me/",
@@ -38,11 +38,11 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "saharsh1223",
+    title: "Saharsh1223",
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/favicon.jpeg",
   },
 };
 const inter = Inter({
