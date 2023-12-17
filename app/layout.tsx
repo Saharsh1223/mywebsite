@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "A programming enthusiast who likes to code stuff",
     url: "https://saharshdev.me/",
-    siteName: "saharsh1223",
+    siteName: "Saharsh1223",
     // images: [
     //   {
     //     url: "https://chronark.com/og.png",
