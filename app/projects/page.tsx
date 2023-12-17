@@ -20,8 +20,8 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "modular-fps-multiplayer")!;
-  const top2 = allProjects.find((project) => project.slug === "modular-fps")!;
+  const featured = allProjects.find((project) => project.slug === "fps-fullbody")!;
+  const top2 = allProjects.find((project) => project.slug === "modular-fps-multiplayer")!;
   const top3 = allProjects.find((project) => project.slug === "discord-bot-tutorial-2")!;
   const sorted = allProjects
     .filter((p) => p.published)
