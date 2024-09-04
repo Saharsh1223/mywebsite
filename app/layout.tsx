@@ -9,12 +9,12 @@ export const metadata: Metadata = {
     default: "Saharsh1223",
     template: "%s | Saharsh1223",
   },
-  description: "Just a 14 year old programming enthusiast who likes to code stuff",
+  description: "Just a 15 year old programming enthusiast who likes to code stuff",
   openGraph: {
     title: "Saharsh1223",
     description:
       "A programming enthusiast who likes to code stuff",
-    url: "https://saharshdev.me/",
+    url: "https://o-0.me/",
     siteName: "Saharsh1223",
     // images: [
     //   {
